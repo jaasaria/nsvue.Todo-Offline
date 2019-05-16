@@ -1,0 +1,101 @@
+// NativeScript core theme
+// @see https://docs.nativescript.org/ui/theme
+@import '~nativescript-theme-core/scss/blue';
+
+// Override variables here
+@import '~nativescript-theme-core/scss/index';
+
+
+
+
+
+// Global SCSS styling
+// @see https://docs.nativescript.org/ui/styling
+
+
+Page {
+	font-size: 14;
+}
+
+.actionbar {
+	background-color: #20a8d8;
+	color: white;
+}
+
+.content {
+	margin: 10;
+}
+
+
+// Fonts
+.fa {
+	font-family: "fontawesome-webfont";
+}
+
+.ion {
+	font-family: "ionicons";
+}
+
+
+.line-card {
+	border: 0;
+	height: 6;
+	background-color: #bdbdbd;
+}
+
+.lineBreak {
+	height: 7;
+	border: none;
+	color: #e0e0e0;
+	background-color: #e0e0e0;
+}
+
+.center-all {
+	vertical-align: center;
+	horizontal-align: center;
+}
+
+.center-v {
+	vertical-align: center;
+}
+
+.center-h {
+	horizontal-align: center;
+}
+
+.check {
+	font-size: 25;
+	padding: 15;
+	vertical-align: center;
+	horizontal-align: center;
+	// color: #d9d9d9;
+}
+
+.completed {
+	color: #20a8d8;
+}
+
+.delete {
+	color: rgb(209, 87, 87);
+	font-size: 25;
+	padding: 15;
+	vertical-align: center;
+	horizontal-align: center;
+}
+
+.edit {
+	color: #c29e0f;
+	font-size: 25;
+	padding: 15 0 15 15;
+	vertical-align: center;
+	horizontal-align: center;
+}
+
+.primary {
+	color: white;
+	background-color: #20a8d8;
+	border-radius: 20%;
+	padding: 5;
+	vertical-align: center;
+	height: 50;
+}
