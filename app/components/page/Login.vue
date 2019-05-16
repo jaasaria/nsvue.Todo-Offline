@@ -1,10 +1,8 @@
 
 <template>
-  <Page class="page" actionBarHidden="true">
+  <Page class="page" actionBarHidden="true" androidStatusBarBackground="#1184ad">
     <StackLayout class="bg" width="100%" height="100%">
-
       <GridLayout rows="35*, 65* , auto">
-
         <GridLayout row="0" class="logo-container">
           <GridLayout class="image-container">
             <Image src="~/assets/images/logo@3x.png"></Image>
@@ -30,7 +28,6 @@
           <Label class="lbl center-all" row="1" text="@ Copyright 2019" textWrap="true"/>
         </GridLayout>
       </GridLayout>
-
     </StackLayout>
   </Page>
 </template>

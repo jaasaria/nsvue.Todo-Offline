@@ -1,11 +1,11 @@
 {
-	"name": "ThingsTodo",
+	"name": "NSThingsTodo",
 	"version": "1.0.0",
 	"description": "A native application built with NativeScript-Vue",
 	"author": "jaasaria <asaria_ja@yahoo.com>",
 	"license": "MIT",
 	"nativescript": {
-		"id": "org.nativescript.jaathingstodo",
+		"id": "org.jaasaria.nsthingtodo",
 		"tns-ios": {
 			"version": "5.0.0"
 		},

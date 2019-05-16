@@ -3,7 +3,7 @@
 android {
   defaultConfig {  
     generatedDensities = []
-    applicationId = "org.nativescript.jaathingstodo"
+    applicationId = "org.jaasaria.nsthingtodo"
   }
   aaptOptions {  
     additionalParameters "--no-version-vectors"  
